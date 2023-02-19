@@ -1,0 +1,34 @@
+{
+    "sourceFile": "task.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 4,
+            "patches": [
+                {
+                    "date": 1676795627576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1676796668393,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,13 +21,13 @@\n     width: 300px;\n     margin-top: 20px;\n     float: right;\n     border-radius: 20px;\n-    margin-left: 20px;\n+    margin-right: 20px;\n }\n button {\n     margin-inline-end: 20px;\n     background-color: lightcoral;\n }\n body {\n-    background-image: url\n\\ No newline at end of file\n-}\n+    background-image: url(back001.jpeg)\n+}\n"
+                },
+                {
+                    "date": 1676797286440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,19 +15,33 @@\n }\n header a {\n     padding: 15px;\n     display: flex;\n+    color: black;\n }\n img {\n     width: 300px;\n     margin-top: 20px;\n     float: right;\n     border-radius: 20px;\n-    margin-right: 20px;\n+    margin-right: 10px;\n }\n button {\n     margin-inline-end: 20px;\n     background-color: lightcoral;\n }\n body {\n     background-image: url(back001.jpeg)\n }\n+header button {\n+    color: whitesmoke;\n+}\n+button {\n+    color: white;\n+    border-radius: 10px;\n+}\n+h1 {\n+    color: blueviolet;\n+}\n+footer {\n+    color: deeppink;\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676797329551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -37,8 +37,9 @@\n }\n button {\n     color: white;\n     border-radius: 10px;\n+    border: none;\n }\n h1 {\n     color: blueviolet;\n }\n"
+                },
+                {
+                    "date": 1676797366364,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,9 @@\n header b {\n     display: flex;\n     padding: 20px;\n     margin-right: 300px;\n-    width: 50%;\n+    font-size: 20px;\n \n }\n header a {\n     padding: 15px;\n"
+                }
+            ],
+            "date": 1676795627576,
+            "name": "Commit-0",
+            "content": "* {\n    box-sizing: border-box;\n}\nheader {\n    display: flex;\n    background: lightgray\n\n}\nheader b {\n    display: flex;\n    padding: 20px;\n    margin-right: 300px;\n    width: 50%;\n\n}\nheader a {\n    padding: 15px;\n    display: flex;\n}\nimg {\n    width: 300px;\n    margin-top: 20px;\n    float: right;\n    border-radius: 20px;\n    margin-left: 20px;\n}\nbutton {\n    margin-inline-end: 20px;\n    background-color: lightcoral;\n}\nbody {\n    background-image: url\n}"
+        }
+    ]
+}

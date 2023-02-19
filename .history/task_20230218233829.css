@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background: lightgray
+
+}
+header b {
+    display: flex;
+    padding: 20px;
+    margin-right: 300px;
+
+
+}
+header a {
+    padding: 15px;
+    display: flexbox;
+}

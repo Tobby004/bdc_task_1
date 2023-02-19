@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 500px;
+}
+header b {
+    display: flex;
+    margin-right: 70px;
+}

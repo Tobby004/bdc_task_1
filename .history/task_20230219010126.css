@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    background: lightgray
+
+}
+header b {
+    display: flex;
+    padding: 20px;
+    margin-right: 300px;
+    width: 50%;
+
+}
+header a {
+    padding: 15px;
+    display: flex;
+    color: black;
+}
+img {
+    width: 300px;
+    margin-top: 20px;
+    float: right;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+button {
+    margin-inline-end: 20px;
+    background-color: lightcoral;
+}
+body {
+    background-image: url(back001.jpeg)
+}
+header button {
+    color: whitesmoke;
+}
+button {
+    color: white;
+    border-radius: 10px;
+}
+h1 {
+    color: blueviolet;
+}
+footer {
+    color: deeppink;
+}

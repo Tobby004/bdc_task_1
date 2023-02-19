@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 5,
+            "activePatchIndex": 10,
             "patches": [
                 {
                     "date": 1676795627576,
@@ -28,6 +28,26 @@
                 {
                     "date": 1676797868216,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,5 +44,8 @@\n     color: blueviolet;\n }\n footer {\n     color: deeppink;\n+}\n+p {\n+    color: blue;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1676798632443,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     width: 300px;\n     margin-top: 20px;\n     float: right;\n     border-radius: 20px;\n-    margin-right: 10px;\n+    margin-right: 50px;\n }\n button {\n     margin-inline-end: 20px;\n     background-color: lightcoral;\n"
+                },
+                {
+                    "date": 1676798653776,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -22,9 +22,9 @@\n     width: 300px;\n     margin-top: 20px;\n     float: right;\n     border-radius: 20px;\n-    margin-right: 50px;\n+    margin-right: 100px;\n }\n button {\n     margin-inline-end: 20px;\n     background-color: lightcoral;\n"
+                },
+                {
+                    "date": 1676798707178,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n }\n img {\n     width: 300px;\n     margin-top: 20px;\n-    float: right;\n+    float: inline-start;\n     border-radius: 20px;\n     margin-right: 100px;\n }\n button {\n"
+                },
+                {
+                    "date": 1676798741152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -20,9 +20,9 @@\n }\n img {\n     width: 300px;\n     margin-top: 20px;\n-    float: inline-start;\n+    float:inline-end;\n     border-radius: 20px;\n     margin-right: 100px;\n }\n button {\n"
+                },
+                {
+                    "date": 1676798806324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,8 +2,9 @@\n     box-sizing: border-box;\n }\n header {\n     display: flex;\n+    padding: 10px;\n     background: lightgray\n \n }\n header b {\n@@ -18,9 +19,9 @@\n     display: flex;\n     color: black;\n }\n img {\n-    width: 300px;\n+    width: 500px;\n     margin-top: 20px;\n     float:inline-end;\n     border-radius: 20px;\n     margin-right: 100px;\n"
                 }
             ],
             "date": 1676795627576,

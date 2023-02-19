@@ -3,7 +3,6 @@
 }
 header {
     display: flex;
-    padding: 10px;
     background: lightgray
 
 }
@@ -20,7 +19,7 @@ header a {
     color: black;
 }
 img {
-    width: 500px;
+    width: 300px;
     margin-top: 20px;
     float:inline-end;
     border-radius: 20px;
